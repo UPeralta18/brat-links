@@ -41,6 +41,7 @@ li {
     height: 3em;
     font-weight: 600;
     font-size: 22px;
+    cursor: pointer;
     
     @media (min-width: 768px) {
         margin: 20px 0;
