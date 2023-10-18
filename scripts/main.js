@@ -1,25 +1,11 @@
-// function readTextFile(file)
-// {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", 'links.brat.com.br/links.txt', false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                console(allText);
-            }
-        }
+fetch("links.txt").then((res) => res.text()).then((text) => {
+    var linksBox = document.getElementById('links');
+    const lines = text.split('\n');
+    for (let i = 0; i < lines.length; i++) {
+        // Processar cada linha
+        // const line = document.createElement('p');
+        // line.textContent = lines[i];
+        // fileContents.appendChild(line);
+        console.log(lines[i]);
     }
-    rawFile.send(null);
-// }
-
-
-// fetch('https://cors-anywhere.herokuapp.com/' + "links.txt")
-//   .then((res) => res.text())
-//   .then((text) => {
-//     console.log(text)
-//    })
-//   .catch((e) => console.error(e));
+}).catch((e) => console.error(e));

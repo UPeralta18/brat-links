@@ -1,1 +1,5 @@
-Twitch; www.twitch.tv/BRAT
+<i class="fa-brands fa-twitch"></i> Twitch; www.twitch.tv/BRAT
+<i class="fa-brands fa-x-twitter"></i> Twitter; https://twitter.com/bratspeedruns
+<i class="fa-brands fa-instagram"></i> Instagram; https://www.instagram.com/bratspeedruns
+<i class="fa-brands fa-linkedin"></i> LinkedIn; https://www.linkedin.com/company/br-at/
+<i class="fa-brands fa-tiktok"></i> Tiktok; https://www.tiktok.com/@bratspeedruns
