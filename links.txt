@@ -2,4 +2,5 @@
 <i class="fa-brands fa-x-twitter"></i> Twitter; https://twitter.com/bratspeedruns
 <i class="fa-brands fa-instagram"></i> Instagram; https://www.instagram.com/bratspeedruns
 <i class="fa-brands fa-linkedin"></i> LinkedIn; https://www.linkedin.com/company/br-at/
+<i class="fa-brands fa-tiktok"></i> Tiktok; https://www.tiktok.com/@bratspeedruns
 <i class="fa-brands fa-discord"></i> Discord; https://discord.gg/XFvmEk3ARw
